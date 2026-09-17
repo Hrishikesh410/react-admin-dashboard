@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Card from "../components/common/Card";
 import ProfileEditor from "../components/profile/ProfileEditor";
+import TaskManager from "../components/tasks/TaskManager";
 
 const Dashboard = () => {
     const [count, setCount] = useState(0);
@@ -78,6 +79,7 @@ const Dashboard = () => {
         </div>
       </section>
       <ProfileEditor/>
+      <TaskManager/>
     </div>
   );
 };
